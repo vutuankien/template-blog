@@ -1,0 +1,255 @@
+
+#navbar{
+      width: 100%;
+      height: 55px;
+      color:black;
+      background-color: #fff;
+      padding:8px 16px;
+      box-shadow: 2px 2px 2px #ccc;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+}
+#navbar_slogan{
+      float: left;
+      line-height: 39px;
+      color:#000;
+      padding: 0 16px;
+      font-family: Verdana,sans-serif;
+      font-size: 18px;
+      letter-spacing: 4px;
+}
+#navbar_slogan b{
+      padding: 0 10px;
+      text-transform: uppercase;
+}
+#navbar_slogan:hover{
+      text-decoration: none;
+      color:#000;
+      background-color: #cccc;
+}
+.navbar_menu{
+      float: right;
+      line-height: 39px;           
+}
+.navbar_item{
+      color: #000;;
+      text-decoration: none;
+      padding:8px 16px;
+      font-family: Verdana,sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      letter-spacing: 4px;
+      text-transform: capitalize;
+      font-weight: 400;
+}
+.navbar_item:hover{
+      text-decoration: none;
+      color:#000;
+      background-color: #ccc;
+}
+/*end header */
+
+/* body_half */
+#body_half{
+      margin:0 10px
+}
+/* slider */
+#slider{
+      margin-top: 55px;
+      position: relative;
+      padding-top: 50%;
+      background: url("../architect_img/architect.jpg") top center / cover no-repeat ;
+      margin-bottom: 20px;
+}
+.slider_text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-40%);
+      font-size:36px;
+      color:#fff;
+      letter-spacing: 4px;
+}
+.slider_text b{
+      background-color: rgb(0, 0, 0,0.75);
+      padding:8px 16px;
+      font-weight: bolder;
+      color:rgba(255, 255, 255, 0.8);
+      text-align: center;
+}
+.slider_text span{
+      padding: 8px 16px;
+      font-size: 36px;
+      letter-spacing: 4px;
+      font-family: "Segoe UI",Arial,sans-serif;
+      font-weight: 400;
+}
+
+/* project */
+#project{
+      padding:32px 16px;
+      width: 100%;
+
+}
+#project .project_title{
+      margin:10px 0;
+      padding:16px 0;
+      font-size: 25px;
+      font-family: "Segoe UI",Arial,sans-serif;
+      font-weight: 400;
+      text-transform: capitalize;
+      border-bottom: 1px solid #ccc;
+}
+.project-item{
+      position: relative;
+}
+.project-item-title{
+      text-transform: capitalize;
+      color:white;
+      background-color: #000;
+      position: absolute;
+      top:0;
+      left:0;
+      font-family: Verdana,sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      padding: 8px 16px !important;
+      transform: translateX(8px);
+}.project_img{
+      padding:0 8px;
+      border:none;
+      margin-bottom:16px ;
+}
+/* end project */
+
+
+/* about */
+#about{
+      padding:32px 16px;
+      width: 100%;
+}
+.about_items{
+      margin-bottom: 20px;
+}
+.about_title{
+      padding:16px 0;
+      margin: 10px 0;
+      border-bottom: 1px solid #ccc;
+      font-size: 25px;
+      font-family: "Segoe UI",Arial,sans-serif;
+      font-weight: 400;
+      text-transform: capitalize;
+}
+.about_des{
+      font-family: Verdana,sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      color:#000;
+      margin:20px 0px;
+}
+.about_img{
+      filter: grayscale(70%);
+      margin-top:20px;
+      padding:0 8px;
+      border: none;
+}
+.img_name, .img_des, .img_btn,.img_pos{margin:10px 0;padding:0 8px;}
+
+.img_name{
+      font-size: 24px;
+      font-family: "Segoe UI",Arial,sans-serif;
+      font-weight: 400;
+      text-transform: capitalize;
+      margin:10px 0
+}
+.img_pos{
+      font-family: Verdana,sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      opacity: 0.6;
+      margin:15px 0;
+}
+.img_des{
+      font-family: Verdana,sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+}
+.img_btn{
+      color:#000;
+      background-color: #ccc;
+      margin:15px 8px;
+      padding:8px 16px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 600;
+}
+.img_btn:hover{
+      color:#fff;
+      background-color: #333;
+}
+/* end about */
+
+/* contact */
+#contact{
+      padding:32px 16px;
+      width: 100%;
+}
+.contact_heading{
+      margin:10px 0;
+      padding:16px 0;
+      font-size: 25px;
+      font-family: "Segoe UI",Arial,sans-serif;
+      font-weight: 400;
+      text-transform: capitalize;
+      border-bottom: 1px solid #ccc;
+}
+.contact_des{
+      font-family: Verdana,sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      margin:10px 0;
+}
+form, .form-group{
+      margin: 10px 0;
+      padding: 8px 0;
+}
+.btn{
+      background-color: #000;
+      color: #fff;
+      border:none
+}
+.btn:hover{
+      background-color: #ccc;
+      color:#000
+}
+/* end contact */
+
+#map{
+      padding:32px 16px;
+      padding-top: 50%;
+      background: url("../architect_img/map.jpg") top center / cover no-repeat ;
+      margin:0 15px 20px 15px;
+}
+#footer{
+      color: #fff;
+      padding:64px 16px;
+      background-color: #000;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 15px;
+      font-weight: bolder;
+}
+
+/* responsive */
+@media only screen and (max-width:768px){
+      .navbar_item{
+            display: none;
+      }
+
+      .slider_text span{
+            display: none
+      };
+}
